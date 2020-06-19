@@ -1,0 +1,37 @@
+{
+  "name": "wenprise/video-thumbnail",
+  "description": "Generate Video thumbnails in WordPress",
+  "keywords": [
+    "Video Thumbnails",
+    "WordPress video thumbnail"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sukhil S S",
+      "email": "emailtosukhil@gmail.com"
+    },
+    {
+      "name": "Paweł Marciniak",
+      "email": "pawmarci@gmail.com"
+    },
+    {
+      "name": "Amos Lee",
+      "email": "amos@wpcio.com"
+    }
+  ],
+  "require": {
+    "php-ffmpeg/php-ffmpeg": "~0.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wenprise\\VideoThumbnail\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
+
+
+
+
+
