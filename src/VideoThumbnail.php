@@ -112,7 +112,7 @@ class VideoThumbnail
             $image = wp_get_image_editor($this->fullFile);
 
             if ( ! is_wp_error($image)) {
-                $image->resize($this->width, $this->height, true);
+                $image->resize($this->width, $this->height, false);
                 $image->save($this->fullFile);
             }
 
